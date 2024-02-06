@@ -1,0 +1,21 @@
+//b) The constructor for the class Movie will set the class property rating to "PG" as default when no rating is provided.
+class movie{
+  constructor(title,studio,rating){
+    this.title=title
+    this.studio=studio
+    this.rating=rating
+    }
+get_rating(){
+  return this.rating;
+}
+set_rating(value){
+  this.rating=value;  
+}
+}
+var m1=new movie("ice age","Walt disney","PG 13")
+var m2=new movie("Moana","universal pictures","PG 13")
+var m3=new movie("frozen","columbia pictures")
+console.log(m1);
+console.log(m2);
+m3.set_rating("PG");
+console.log(m3);

@@ -1,0 +1,11 @@
+//write a class to calculate the Uber price.
+class Uber{
+  constructor(km){
+    this.km=km;
+    }
+getprice(){
+  return 18*this.km
+}
+}
+var u1=new Uber(15)
+console.log(u1.getprice());

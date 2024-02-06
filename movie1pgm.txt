@@ -1,0 +1,13 @@
+a) Write a constructor for the class Movie, which takes a String representing the title of the movie, a String representing the studio, and a String representing the rating as its arguments, and sets the respective class properties to these values.
+
+class movie{
+  constructor(title,studio,rating){
+    this.title=title
+    this.studio=studio
+    this.rating=rating
+  }
+}
+var m1=new movie("ice age","Universal Pictures","PG-13")
+var m2=new movie("moana","Warner Bros","PG-13")
+console.log(m1)
+console.log(m2)

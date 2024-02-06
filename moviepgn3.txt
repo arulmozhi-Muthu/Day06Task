@@ -1,0 +1,19 @@
+//c) Write a method getPG, which takes an array of base type Movie as its argument, and returns a new array of only those movies in the input array with a rating of "PG". You may assume the input array is full of Movie instances. The returned array need not be full.
+class movie{
+  constructor(title,studio,rating){
+    this.title=title
+    this.studio=studio
+    this.rating=rating
+    }
+getPG(arr){
+  for(var i=0;i<3;i++){
+    return this.title;
+  }
+}
+}
+var m1=new movie("ice age","Walt disney","PG")
+var m2=new movie("Moana","universal pictures","PG")
+var m3=new movie("frozen","columbia pictures","PG")
+console.log(m1.getPG());
+console.log(m2.getPG());
+console.log(m3.getPG());

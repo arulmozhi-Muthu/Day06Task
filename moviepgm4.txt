@@ -1,0 +1,16 @@
+//d) Write a piece of code that creates an instance of the class Movie with the title “Casino Royale”, the studio “Eon Productions”, and the rating “PG­13”
+class movie{
+  constructor(title,studio,rating){
+    this.title=title
+    this.studio=studio
+    this.rating=rating
+    }
+}
+var m1=new movie("ice age","Walt disney","PG");
+var m2=new movie("Moana","universal pictures","PG");
+var m3=new movie("frozen","columbia pictures","PG");
+var m4=new movie("Casino Royale","Eon Productions","PG 13");
+console.log(m1);
+console.log(m2);
+console.log(m3);
+console.log(m4);

@@ -1,0 +1,8 @@
+class circle{
+  constructor(radius,color){
+    this.radius=radius
+    this.color=color
+  }
+}
+var c1=new circle(5,"red")
+console.log(c1)

@@ -1,0 +1,11 @@
+//get radius
+class circle{
+  constructor(radius){
+    this.radius=radius
+   }
+get_radius(){
+  return this.radius
+  }
+}
+var c1=new circle(5)
+console.log(c1.get_radius())

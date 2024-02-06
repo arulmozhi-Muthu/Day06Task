@@ -1,0 +1,16 @@
+//getcolor and setcolor
+class circle{
+  constructor(color){
+    this.color=color
+   }
+getcolor(){
+  return this.color;
+  }
+setcolor(value){
+  this.color=value;
+}
+}
+var c1=new circle("Red");
+console.log(c1.getcolor())
+c1.setcolor("Pink");
+console.log(c1.getcolor())

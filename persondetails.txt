@@ -1,0 +1,16 @@
+//Write a “person” class to hold all the details.
+class person{
+  constructor(name,age,gender,address,city,country,education,Areaofinterest,hobbies){
+    this.name=name
+    this.age=age
+    this.gender=gender
+    this.address=address
+    this.city=city
+    this.country=country
+    this.education=education
+    this.Areaofinterest=Areaofinterest
+    this.hobbies=hobbies
+  }
+}
+var p1=new person("asha",25,"female","Thiruvalluvar nagar","chennai","Tamilnadu","B.E","Developing","reading books")
+console.log(p1);

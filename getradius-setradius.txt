@@ -1,0 +1,15 @@
+//get radius and set radius
+class circle{
+  constructor(radius){
+    this.radius=radius
+   }
+getradius(){
+  return this.radius;
+  }
+setradius(value){
+  this.radius=value;
+}
+}
+var c1=new circle(5);
+c1.setradius(10);
+console.log(c1.getradius())

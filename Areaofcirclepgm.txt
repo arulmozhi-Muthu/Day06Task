@@ -1,0 +1,12 @@
+//Area of circle
+class circle{
+  constructor(radius){
+    this.radius=radius
+    this.pi=3.14
+}
+get_radius(){
+  return this.pi*this.radius*this.radius
+  }
+}
+var c1=new circle(5)
+console.log(c1.get_radius())
